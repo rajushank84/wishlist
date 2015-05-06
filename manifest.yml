@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    mem: 256M
+    name: wishlist
+    framework: 
+      name: node
+      info: 
+        mem: 64M
+        description: Node.js Application
+        exec: 
+    url: ${name}.${target-base}
+    instances: 2
+    infra: aws
